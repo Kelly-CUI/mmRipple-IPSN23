@@ -20,6 +20,8 @@ We envision some applications that could benefit from the communication function
 
 ![app](https://github.com/Kelly-CUI/mmRipple-IPSN23/assets/77531118/d2a32fed-cdc5-4773-a986-3e2277d5daee)
 
+# Dataset
+Please download the dataset ['test.bin'](https://drive.google.com/file/d/1oETuszpPbCQH9WjFLQ_n-T0qpOwHcuen/view?usp=drive_link) and then put it in the 'Data' file.
 
 # Cite
 Please consider to cite our paper if you use the code in your research project.
