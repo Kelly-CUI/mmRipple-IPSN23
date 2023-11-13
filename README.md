@@ -1,12 +1,13 @@
 # mmRipple-IPSN23
 
 This repository provides the codes for our IPSN 2023 paper: 
-[**mmRipple: Communicating with mmWave Radars through Smartphone Vibration**](https://dl.acm.org/doi/abs/10.1145/3583120.3586956)
+[**mmRipple: Communicating with mmWave Radars through Smartphone Vibration**](https://dl.acm.org/doi/abs/10.1145/3583120.3586956) [pdf](https://www4.comp.polyu.edu.hk/~csyqzheng/papers/mmRipple_IPSN2023.pdf)) 
+
 
 mmRipple aims to empower commodity mmWave radars with the communication capability through smartphone vibrations. In mmRipple, a smartphone (transmitter) sends messages by modulating smartphone vibrations, while a mmWave radar (receiver) receives the messages by detecting and decoding the smartphone vibrations with mmWave signals. By doing so, a smartphone user can not only be passively sensed by a mmWave radar, but also actively send messages to the radar using her smartphone without any hardware modifications to either the smartphone or the mmWave radar.
 
 # Authors
-Kaiyan Cui, Qiang Yang, [Yuanqing Zheng](https://www4.comp.polyu.edu.hk/~csyqzheng/) and Jinsong Han
+Kaiyan Cui, Qiang Yang, [Yuanqing Zheng](https://www4.comp.polyu.edu.hk/~csyqzheng/) and [Jinsong Han](https://person.zju.edu.cn/hanjinsong)
 
 # Workflow
 mmRipple leverages a vibration motor (widely available in almost all smartphones) as a transmitter. The vibra-motor vibrates according to user-defined messages, while the mmWave radar senses such vibrations and decodes these messages. Moreover, mmRipple supports multiple objects to send messages simultaneously to a mmWave radar, and each received message implicitly carries the location context of the corresponding object thanks to the spatial information from sensing.
